@@ -62,7 +62,7 @@ app.get('/i/:fileName', (req,res) => {
 	
 	
 	var params = {
-	  Bucket: 'billy01-bucket',
+	  Bucket: bucketName,
 	  Key : "images/" + req.params.fileName
 	};
 	
